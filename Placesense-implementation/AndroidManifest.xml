@@ -6,6 +6,11 @@
     <uses-sdk
         android:minSdkVersion="15"
         android:targetSdkVersion="17" />
+    
+    <uses-feature android:name="android.hardware.wifi" />
+    
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
 
     <application
         android:allowBackup="true"
